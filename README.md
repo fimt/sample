@@ -48,7 +48,38 @@ Update repository information
 $ git fetch --all
 ```
 
+### Step 2
 Rebase your current branch
 ```
-$ git rebase master
+$ git rebase origin/master feature/topic-demo
 ```
+
+### Step 3
+Publish or Push all your branch changes
+
+
+## Closing Issue
+
+### Step 1
+Go to Github.com and navigate to your respective project e.g https://github.com/fimt/sample
+
+### Step 2
+Go to the list of branches e.g https://github.com/fimt/sample/branches and click on the "New pull request" on your completed branch
+
+### Step 3
+The title of the pull request must consist of the following keywords:
+
+* close
+* closes
+* closed
+* fix
+* fixes
+* fixed
+* resolve
+* resolves
+* resolved
+
+|Syntax|Example|
+|---|---|
+|KEYWORD #ISSUE-NUMBER|Closes #10|
+|Multiple issues|Resolves #10, resolves #123|
