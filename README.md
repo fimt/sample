@@ -16,3 +16,32 @@ The main repository will always hold two evergreen branches:
 
 * `master`
 * `stable`
+
+
+# Getting Start
+
+## Working with New Issue
+
+### Step 1
+Switch to master branch
+```
+$ git checkout master
+```
+
+### Step 2
+Update repository information
+```
+$ git fetch --all
+```
+
+### Step 3
+Create a new branch and switch over
+```
+$ git checkout -b "feature/topic-*"
+```
+
+## Finalizing Work
+
+
+
+
