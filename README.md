@@ -42,6 +42,13 @@ $ git checkout -b "feature/topic-*"
 
 ## Finalizing Work
 
+### Step 1
+Update repository information
+```
+$ git fetch --all
+```
 
-
-
+Rebase your current branch
+```
+$ git rebase master
+```
