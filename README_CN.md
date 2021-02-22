@@ -6,7 +6,7 @@
 |---|---|---|
 |Stable/Production|_**stable**_|Accepts merges from Working and Hotfixes|
 |Working/Development|_**master**_|Accepts merges from Features/Issues and Hotfixes|
-|Features/Issues|_**feature/topic-***_ (功能编号)or _**issue/topic-***_(修复bug编号)|Always branch off HEAD of _**master**_| 
+|Features/Issues|_**feature/topic-***_ or _**issue/topic-***_|Always branch off HEAD of _**master**_|
 |Hotfix|_**hotfix/topic-***_|Always branch off _**stable**_|
 
 
@@ -64,7 +64,7 @@ $ git rebase origin/master feature/topic-demo
 到Github.com并导航到您各自的项目 例: https://github.com/fimt/sample
 
 ### 步骤2
-转到分支机构列表 e.g https://github.com/fimt/sample/branches 并点击 "New pull request" 来完成
+转到分支机构列表 e.g https://github.com/fimt/sample/branches 并点击 **"New pull request"** 按钮来完成
 
 ### 步骤3
 当请求pull request时，标题必须是一下关键字:
@@ -83,3 +83,4 @@ $ git rebase origin/master feature/topic-demo
 |---|---|
 |KEYWORD #ISSUE-NUMBER|Closes #10|
 |Multiple issues|Resolves #10, resolves #123|
+
