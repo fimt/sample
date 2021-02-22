@@ -84,3 +84,4 @@ $ git rebase origin/master feature/topic-demo
 |KEYWORD #ISSUE-NUMBER|Closes #10|
 |Multiple issues|Resolves #10, resolves #123|
 
+### 步骤4
